@@ -71,6 +71,29 @@ ponto Circulo::getCentro (void){
 
 /** Main ******************************************************/
 int main() {
-    cout << "Hello" << endl;
+    ponto centro;
+    Circulo circ;
+
+    centro.x = 4;
+    centro.y = 2;
+
+    cout << endl;
+    cout << "*************** " << endl;
+    cout << "*   Circulo   *"  << endl;
+    cout << "*************** " << endl;
+
+    circ.setCentro(centro) ;
+    circ.setRaio(2);
+
+    circ.calcArea();
+    circ.calcCircunf();
+
+    cout << "Centro:   ("<< circ.getCentro().x << "," << circ.getCentro().y << ")" << endl;
+    cout << "Raio:     " << circ.getRaio() << endl;
+    cout << "Area:     " << circ.getArea() << endl;
+    cout << "Circunf.: " << circ.getCircunf() << endl;
+
+    cout << endl;
+
     return 0;
 }
