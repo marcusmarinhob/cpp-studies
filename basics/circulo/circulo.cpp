@@ -7,6 +7,7 @@ struct ponto {
     int x, y;
 };
 
+/** Definição da classe ******************************************/
 class Circulo {
     float raio, area, circunf;
     ponto centro;
@@ -14,7 +15,7 @@ class Circulo {
     public:
         Circulo();
 
-        void calArea (void);
+        void calcArea (void);
         void calcCircunf (void);
 
         void setRaio (float);
@@ -26,8 +27,20 @@ class Circulo {
         ponto getCentro (void);
 };
 
-int main()
-{
+/** Definição dos Métodos da classe Circulo ********************/
+Circulo::Circulo() {
+    // Inicialização dos valores no construtor
+    raio = 0.0;
+    area = 0.0;
+    circunf = 0.0;
+}
+
+
+
+
+
+/** Main ******************************************************/
+int main() {
     cout << "Hello" << endl;
     return 0;
 }
