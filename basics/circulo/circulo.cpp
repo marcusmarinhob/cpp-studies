@@ -35,6 +35,14 @@ Circulo::Circulo() {
     circunf = 0.0;
 }
 
+void Circulo::setRaio (float r) {
+    raio = r;
+}
+
+void Circulo::setCentro (ponto p) {
+    centro = p;
+}
+
 
 
 
