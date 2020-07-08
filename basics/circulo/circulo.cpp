@@ -35,6 +35,14 @@ Circulo::Circulo() {
     circunf = 0.0;
 }
 
+void Circulo::calcArea (void){
+    area = 3.1415 * pow(raio, 2);
+}
+
+void Circulo::calcCircunf (void){
+    circunf = 2 * 3.1415 * raio;
+}
+
 void Circulo::setRaio (float r) {
     raio = r;
 }
@@ -58,6 +66,8 @@ float Circulo::getCircunf (void) {
 ponto Circulo::getCentro (void){
     return centro;
 }
+
+
 
 /** Main ******************************************************/
 int main() {
