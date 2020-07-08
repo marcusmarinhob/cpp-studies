@@ -43,9 +43,21 @@ void Circulo::setCentro (ponto p) {
     centro = p;
 }
 
+float Circulo::getRaio (void) {
+    return raio;
+}
 
+float Circulo::getArea (void) {
+    return area;
+}
 
+float Circulo::getCircunf (void) {
+    return circunf;
+}
 
+ponto Circulo::getCentro (void){
+    return centro;
+}
 
 /** Main ******************************************************/
 int main() {
