@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{67d290bc-636e-4252-b51d-e75abbc59378}</ProjectGuid>
+    <ProjectGuid>{4f8631c7-a575-4f02-964e-64fd4f3be7a6}</ProjectGuid>
     <RootNamespace>HelloWorldVS</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
